@@ -1,0 +1,180 @@
+/** Client fallback if /api/public/site is unreachable (mirrors backend defaultSiteConfig). */
+export default {
+  seasonLabel: "2026",
+  eventDate: "2026-07-18T17:00:00.000+01:00",
+  ticketCardEventTitle: "FYB DINNER & THANKSGIVING",
+  headerTagline: "NIFES • CUSTECH Osara",
+  heroKicker: "NIFES CUSTECH Osara",
+  heroTitle: "FYB DINNER & THANKSGIVING '25",
+  heroSubtitle: "A Night of Glory • Gratitude • Greatness",
+  heroBackgroundImage:
+    "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  registrationSectionKicker: "Registration",
+  registrationSectionTitle: "Lock in — the FYB wave is moving fast",
+  experienceSectionKicker: "The Experience",
+  experienceSectionTitle: "Grad party × Worship concert × Red carpet",
+  gallerySectionKicker: "Gallery",
+  gallerySectionTitle: "Polaroid wall — last year was a movie 🎬",
+  gallerySubmitEmail: "media@nifescustech.org",
+  testimonialsSectionKicker: "Testimonials",
+  testimonialsSectionTitle: "Real talk from FYB alumni 🔊",
+  sponsorsSectionKicker: "Sponsors",
+  sponsorsSectionTitle: "Shining logos — unlock premium tiers",
+  sponsorSpotlightCopy: "Logo wall + stage mention + FYB love package",
+  committeeSectionKicker: "Meet the team",
+  committeeSectionTitle: "Young leaders, serious excellence",
+  footerStillCelebrating: "Still celebrating",
+  footerOrgTitle: "NIFES FYB • CUSTECH Osara",
+  eventTimeLabel: "5:00 PM WAT",
+  venue: "CUSTECH Multipurpose Hall, Osara",
+  dressCode: "Elegant with a touch of Gold ✨",
+  entryGate: "Main Gate A",
+  emailSubject: "Your NIFES FYB Dinner Ticket",
+  contactPhoneDisplay: "+234 801 234 5678",
+  contactEmail: "events@nifescustech.org",
+  whatsappShareUrl: "https://wa.me/?text=Bro%20come%20register%20for%20NIFES%20FYB%20Dinner%20%26%20Thanksgiving!",
+  instagramUrl: "#",
+  facebookUrl: "#",
+  marqueeHypeThreshold: 200,
+  marqueeHypeFallback: "200+",
+  marqueeTemplate:
+    "🔥 {hype} Final Year Brethren energy on campus • {count} paid flow registrations logged • Early bird slots left: {slots} • CUSTECH Osara stand up! 🎓✨",
+  pricing: {
+    earlyBirdCapacity: 50,
+    earlyBirdPricePerTicket: 5000,
+    regularPricePerTicket: 7500,
+    tableFor5Price: 30000,
+    sponsorPrice: 25000,
+  },
+  departments: [
+    "Computer Science",
+    "Software Engineering",
+    "Cyber Security",
+    "Biochemistry",
+    "Microbiology",
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "Economics",
+    "Accounting",
+    "Business Administration",
+  ],
+  experience: [
+    {
+      emoji: "🍽️",
+      title: "Red Carpet Reception",
+      desc: "Glam arrivals, photos, and pure FYB energy.",
+      img: "https://images.pexels.com/photos/3184398/pexels-photo-3184398.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+      emoji: "🎤",
+      title: "Testimony Hour",
+      desc: "Real stories — God showed up all through finals.",
+      img: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+      emoji: "💃",
+      title: "Worship Explosion",
+      desc: "Hands high, voices loud, gratitude on max.",
+      img: "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+      emoji: "🏆",
+      title: "FYB Awards",
+      desc: "Celebrate excellence, heart, and faithfulness.",
+      img: "https://images.pexels.com/photos/2881370/pexels-photo-2881370.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+      emoji: "🍾",
+      title: "Dinner & Toast",
+      desc: "Fine dining, laughter, and FYB family moments.",
+      img: "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+  ],
+  testimonials: [
+    {
+      name: "Bro. Tunde 'Final Boss'",
+      text: "FYB night was maddd! Testimonies choke — I left campus with joy full my chest. 🙌",
+      color: "from-[#00A86B] to-[#7B2EDA]",
+    },
+    {
+      name: "Sis. Amaka",
+      text: "No cap, the dinner + worship combo hit different. God really get us for CUSTECH. ✨",
+      color: "from-[#FFD700] to-[#FF6B6B]",
+    },
+    {
+      name: "Bro. Chinedu",
+      text: "From project defense stress to praise break — FYB reset my head. See you this year! 🎓",
+      color: "from-[#7B2EDA] to-[#FF9F4A]",
+    },
+  ],
+  committee: [
+    { name: "Bro. John Adekunle", role: "Chairperson", wa: "2348012345678" },
+    { name: "Sis. Grace Ogunleye", role: "Secretary", wa: "2348012345678" },
+    { name: "Bro. Emmanuel Yusuf", role: "Logistics Lead", wa: "2348012345678" },
+    { name: "Sis. Ruth Ibrahim", role: "Welfare Lead", wa: "2348012345678" },
+  ],
+  sponsors: ["Platinum", "Gold", "Silver", "Bronze", "Community"],
+  sponsorSpotlightTiers: ["Platinum", "Gold", "Silver"],
+  galleryItems: [1, 2, 3, 4, 5, 6].map((n) => ({
+    thumbUrl: `https://picsum.photos/seed/nifesfyb${n}/600/600`,
+    fullUrl: `https://picsum.photos/seed/nifesfyb${n}/1400/1400`,
+    caption: `FYB '24 vibes #${n}`,
+  })),
+  vibeCheck: {
+    modalEyebrow: "Vibe check",
+    modalTitle: "How are we entering FYB night?",
+    energyLabel: "Your energy",
+    moods: [
+      {
+        id: "grateful",
+        label: "🙏 Grateful",
+        prompt: "Share one thing you're grateful for from finals season.",
+      },
+      {
+        id: "expectant",
+        label: "✨ Expectant",
+        prompt: "What are you believing God for in the new season?",
+      },
+      {
+        id: "hyped",
+        label: "🔥 Hyped",
+        prompt: "Drop a song line for the dance floor.",
+      },
+    ],
+    tracks: [
+      { title: "Afro gospel playlist", link: "https://open.spotify.com/" },
+      { title: "FYB worship mix", link: "https://music.youtube.com/" },
+    ],
+    energyBands: [
+      { min: 0, max: 29, label: "Low battery — still showing up." },
+      { min: 30, max: 59, label: "Warming up — the night will lift you." },
+      { min: 60, max: 84, label: "Strong energy — you're ready." },
+      { min: 85, max: 100, label: "Maxed out — FYB is in trouble (in a good way)." },
+    ],
+    confirmLabel: "I'm locked in",
+    confirmMessage: "Vibe captured. See you at the altar and the dance floor.",
+  },
+};
+
+function mergeVibeCheck(base, patch) {
+  if (!base) return patch || undefined;
+  if (!patch) return { ...base, moods: [...(base.moods || [])], tracks: [...(base.tracks || [])], energyBands: [...(base.energyBands || [])] };
+  return {
+    ...base,
+    ...patch,
+    moods: Array.isArray(patch.moods) ? patch.moods : base.moods,
+    tracks: Array.isArray(patch.tracks) ? patch.tracks : base.tracks,
+    energyBands: Array.isArray(patch.energyBands) ? patch.energyBands : base.energyBands,
+  };
+}
+
+export function mergeSiteConfig(base, patch) {
+  if (!patch) return { ...base, pricing: { ...base.pricing } };
+  return {
+    ...base,
+    ...patch,
+    pricing: { ...base.pricing, ...(patch.pricing || {}) },
+    vibeCheck: mergeVibeCheck(base.vibeCheck, patch.vibeCheck),
+  };
+}
